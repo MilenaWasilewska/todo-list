@@ -1,0 +1,61 @@
+.tasks {
+    display: block;
+    background-color: white;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.22);
+}
+
+.tasks__header {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: hsl(0, 0%, 90%);
+    margin: 0;
+}
+
+.tasks__list {
+    list-style: none;
+    padding: 20px;
+}
+
+.tasks__listItem {
+    display: flex;
+    justify-content:space-between;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: hsl(0, 0%, 90%);
+    align-items: center;
+}
+
+.listItem--done {
+    text-decoration: line-through;
+}
+
+.tasks__doneButton { 
+    width: 30px;
+    height: 30px;
+    border-width: 0;
+    background-color: #32620e;
+}
+
+.tasks__doneButton--check {
+    background-image: url("../images/check.png"); 
+    background-repeat: round;  
+}
+
+.tasks__text {
+    flex-basis: 100%;
+    align-self: flex-start;
+    padding: 0 20px 0 20px;
+}
+
+.tasks__removeButton {
+    background-image: url("../images/bin.png");  
+    background-repeat: round;    
+    width: 30px;
+    height: 30px;
+    border-width: 0;
+}
