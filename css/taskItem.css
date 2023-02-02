@@ -1,6 +1,7 @@
 .taskItem {
     list-style: none;
     display: flex;
+    padding: 20px;
     justify-content:space-between;
     border-style: solid;
     border-width: 0 0 3px 0;
@@ -12,7 +13,7 @@
     text-decoration: line-through;
 }
 
-.taskItem__doneButton { 
+.taskItem__button { 
     width: 30px;
     height: 30px;
     border-width: 0;
@@ -20,11 +21,15 @@
     color:white;
 }
 
-.taskItem__doneButton:hover {
+.taskItem__button--done { 
+    background-color: #32620e;
+}
+
+.taskItem__button--done:hover {
     background-color: #43781a;
 } 
 
-.taskItem__doneButton:active {
+.taskItem__button--done:active {
     background-color: #679b40;
 } 
 
@@ -34,18 +39,14 @@
     padding: 0 20px 0 20px;
 }
 
-.taskItem__removeButton {   
-    width: 30px;
-    height: 30px;
-    border-width: 0;
+.taskItem__button--remove {   
     background-color: red;
-    color: white;
 }
 
-.taskItem__removeButton:hover {
+.taskItem__button--remove:hover {
     background-color: rgb(239, 67, 67);
 }
 
-.taskItem__removeButton:active {
+.taskItem__button--remove:active {
     background-color: rgb(233, 110, 110);
 }
