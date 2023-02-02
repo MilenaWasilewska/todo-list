@@ -2,7 +2,7 @@
 
 This repository presents todo-list made by me.
 
-##Demo
+## Demo
 https://milenawasilewska.github.io/todo-list/
 
 ## Description
