@@ -39,11 +39,8 @@
     height: 30px;
     border-width: 0;
     background-color: #32620e;
-}
-
-.tasks__doneButton--check {
-    background-image: url("../images/check.png"); 
-    background-repeat: round;  
+    text-decoration: none;
+    color:white;
 }
 
 .tasks__text {
@@ -52,10 +49,10 @@
     padding: 0 20px 0 20px;
 }
 
-.tasks__removeButton {
-    background-image: url("../images/bin.png");  
-    background-repeat: round;    
+.tasks__removeButton {   
     width: 30px;
     height: 30px;
     border-width: 0;
+    background-color: red;
+    color: white;
 }
