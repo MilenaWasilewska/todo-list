@@ -41,6 +41,14 @@
     color: white;
 }
 
+.form__button:hover {
+    background-color: rgb(70, 151, 143);
+}
+
+.form__button:active {
+    background-color: rgb(102, 182, 174);
+}
+
 
 @media (max-width: 767px) {
     .form__flexElement {

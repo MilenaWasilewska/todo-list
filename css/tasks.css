@@ -39,9 +39,16 @@
     height: 30px;
     border-width: 0;
     background-color: #32620e;
-    text-decoration: none;
     color:white;
 }
+
+.tasks__doneButton:hover {
+    background-color: #43781a;
+} 
+
+.tasks__doneButton:active {
+    background-color: #679b40;
+} 
 
 .tasks__text {
     flex-basis: 100%;
@@ -55,4 +62,12 @@
     border-width: 0;
     background-color: red;
     color: white;
+}
+
+.tasks__removeButton:hover {
+    background-color: rgb(239, 67, 67);
+}
+
+.tasks__removeButton:active {
+    background-color: rgb(233, 110, 110);
 }
