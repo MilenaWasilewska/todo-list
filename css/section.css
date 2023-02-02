@@ -1,0 +1,21 @@
+.section {
+    display: block;
+    background-color: white;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.22);
+}
+
+.section__header {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: hsl(0, 0%, 90%);
+    margin: 0;
+}
+
+.section__body {
+    padding: 20px;
+}

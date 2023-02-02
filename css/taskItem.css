@@ -1,27 +1,5 @@
-.tasks {
-    display: block;
-    background-color: white;
-    max-width: 1200px;
-    margin: 20px auto;
-    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.22);
-}
-
-.tasks__header {
-    font-weight: bold;
-    font-size: 25px;
-    padding: 20px;
-    border-style: solid;
-    border-width: 0 0 3px 0;
-    border-color: hsl(0, 0%, 90%);
-    margin: 0;
-}
-
-.tasks__list {
+.taskItem {
     list-style: none;
-    padding: 20px;
-}
-
-.tasks__listItem {
     display: flex;
     justify-content:space-between;
     border-style: solid;
@@ -30,11 +8,11 @@
     align-items: center;
 }
 
-.listItem--done {
+.taskItem--done {
     text-decoration: line-through;
 }
 
-.tasks__doneButton { 
+.taskItem__doneButton { 
     width: 30px;
     height: 30px;
     border-width: 0;
@@ -42,21 +20,21 @@
     color:white;
 }
 
-.tasks__doneButton:hover {
+.taskItem__doneButton:hover {
     background-color: #43781a;
 } 
 
-.tasks__doneButton:active {
+.taskItem__doneButton:active {
     background-color: #679b40;
 } 
 
-.tasks__text {
+.taskItem__text {
     flex-basis: 100%;
     align-self: flex-start;
     padding: 0 20px 0 20px;
 }
 
-.tasks__removeButton {   
+.taskItem__removeButton {   
     width: 30px;
     height: 30px;
     border-width: 0;
@@ -64,10 +42,10 @@
     color: white;
 }
 
-.tasks__removeButton:hover {
+.taskItem__removeButton:hover {
     background-color: rgb(239, 67, 67);
 }
 
-.tasks__removeButton:active {
+.taskItem__removeButton:active {
     background-color: rgb(233, 110, 110);
 }
