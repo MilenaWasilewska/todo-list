@@ -10,6 +10,7 @@
     border-style: solid;
     border-width: 3px;
     border-color: hsl(0, 0%, 90%);
+    height: 50px;
 }
 
 .form__button {
@@ -34,6 +35,6 @@
     }
 
     .form__button {
-        height: 40px;
+        height: 50px;
     }
 }
