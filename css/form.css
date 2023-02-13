@@ -19,14 +19,17 @@
     background-color: rgb(51, 132, 124);
     border: none;
     color: white;
+    transition: 1s;
 }
 
 .form__button:hover {
-    background-color: rgb(70, 151, 143);
+    background-color: rgba(70, 151, 143, 0.804);
+    transform: scale(1.1);
 }
 
 .form__button:active {
     background-color: rgb(102, 182, 174);
+    
 }
 
 @media (max-width: 767px) {
